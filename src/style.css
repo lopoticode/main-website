@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.m-auto{
+  margin:auto
+}
+
+.d-flex{
+  display: flex;
+}
+
+.row{
+    display: flex;
+}
+.col-sm{
+    width: 100%;
+    margin:auto;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+  text-align: center;
+}
+
+a[href="https://alvarotrigo.com/fullPage/"] {
+  display: none!important;
+}
